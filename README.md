@@ -7,7 +7,7 @@ This README provides step-by-step instructions for setting up and running a Node
 Before setting up the API, ensure you have the following prerequisites installed on your system:
 
 - Node.js: Download and install Node.js from [nodejs.org.](https://nodejs.org/en/download)
-- Mongo DB: Create your Mongo Atlas and retrieve your connection string. (If you can't create yours, I have provided a sample connection string in the `.env.example` file).
+- Mongo DB: Create your Mongo Atlas and retrieve your connection string.
 - Code Editor: Use a code editor like Visual Studio Code, Sublime Text, or any of your choice.
 
 ## Getting Started
