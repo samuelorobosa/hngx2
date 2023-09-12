@@ -4,7 +4,6 @@ import {personRouter} from "./routes/person.router.js";
 import cors from "cors";
 import mongoose from "mongoose";
 import dotenv from 'dotenv';
-import {handleErrors} from "./utils/handleErrors.js";
 
 /*
 Initialize application
@@ -13,7 +12,6 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 app.use(cors());
 app.use(express.json())
-app.use(handleErrors)
 dotenv.config();
 
 
